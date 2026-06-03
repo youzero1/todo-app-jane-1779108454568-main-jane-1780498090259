@@ -5,6 +5,7 @@ declare const styles: {
   readonly logo: string;
   readonly title: string;
   readonly subtitle: string;
+  readonly themeRow: string;
   readonly main: string;
   readonly empty: string;
   readonly emptyIcon: string;
