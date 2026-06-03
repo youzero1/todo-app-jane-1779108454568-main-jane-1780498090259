@@ -6,3 +6,21 @@ export type Todo = {
   completed: boolean;
   createdAt: number;
 };
+
+export type ThemeName = 'indigo' | 'rose' | 'emerald' | 'amber' | 'violet' | 'sky';
+
+export type Theme = {
+  name: ThemeName;
+  label: string;
+  colors: {
+    bg: string;
+    surface: string;
+    surfaceHover: string;
+    border: string;
+    primary: string;
+    primaryHover: string;
+    primaryLight: string;
+    shadowMd: string;
+    shadowLg: string;
+  };
+};

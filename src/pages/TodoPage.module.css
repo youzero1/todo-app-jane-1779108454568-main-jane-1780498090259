@@ -36,6 +36,12 @@
   color: var(--color-text-muted);
 }
 
+.themeRow {
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+}
+
 .main {
   display: flex;
   flex-direction: column;
